@@ -58,7 +58,7 @@ public class clickSound : MonoBehaviour
                 TSkillImage.SetActive(true);
                 SkillImage.GetComponent<Image>().sprite = image[0];
                 break;
-            case "232002":
+            case "232203":
                 name.GetComponent<TextMeshProUGUI>().text = "Supply Pack";
                 TSkillImage.SetActive(true);
                 SkillImage.GetComponent<Image>().sprite = image[1];
@@ -442,6 +442,66 @@ public class clickSound : MonoBehaviour
                 name.GetComponent<TextMeshProUGUI>().text = "EXO-49 Emancipator Exosuit";
                 TSkillImage.SetActive(true);
                 SkillImage.GetComponent<Image>().sprite = image[77];
+                break;
+            case "031200":
+                name.GetComponent<TextMeshProUGUI>().text = "Dark Flulid Vessel";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[78];
+                break;
+            case "020202":
+                name.GetComponent<TextMeshProUGUI>().text = "Tectonic Drill";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[79];
+                break;
+            case "1133":
+                name.GetComponent<TextMeshProUGUI>().text = "Orbital Illumination Flare";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[80];
+                break;
+            case "unused":
+                name.GetComponent<TextMeshProUGUI>().text = "Grinder";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[81];
+                break;
+            case "1031202 usused":
+                name.GetComponent<TextMeshProUGUI>().text = "Nuclear Bomb";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[82];
+                break;
+            case "3110 usused":
+                name.GetComponent<TextMeshProUGUI>().text = "Super Earth Troop Support";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[83];
+                break;
+            case "010101 unused":
+                name.GetComponent<TextMeshProUGUI>().text = "Carpet Bomb";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[84];
+                break;
+            case "20300 usused":
+                name.GetComponent<TextMeshProUGUI>().text = "GL-21 Incendiary Grenade Launcher";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[85];
+                break;
+            case "21032 usused":
+                name.GetComponent<TextMeshProUGUI>().text = "AD-289 Angel";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[86];
+                break;
+            case "231231":
+                name.GetComponent<TextMeshProUGUI>().text = "BX-7 Displacer Pack";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[87];
+                break;
+            case "21032":
+                name.GetComponent<TextMeshProUGUI>().text = "MS-220 Missile Silo";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[88];
+                break;
+            case "23021":
+                name.GetComponent<TextMeshProUGUI>().text = "MLS-4X Commando";
+                TSkillImage.SetActive(true);
+                SkillImage.GetComponent<Image>().sprite = image[89];
                 break;
             default:
                 name.GetComponent<TextMeshProUGUI>().text = "";
